@@ -21,7 +21,6 @@ export interface AppStore {
 // ITEMS STORE
 //-------------------------------------------------------------------
 export const items = (state: any = [], {type, payload}) => {
-  let index: number;
   switch (type) {
     case 'ADD_ITEMS':
       return payload;
